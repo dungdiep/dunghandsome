@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+   
+    
+}
+
+
+
+.taskbar
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+    font-size: 10px;
+    background-color:#00483d ;
+    padding: 0;
+   
+    
+    cursor: pointer;
+    position: relative;
+    height: 60px;
+    border-radius: 5px;
+
+     
+     
+
+
+}
+.big
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+.labelsmartphone
+{
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+}
+.model
+{
+     font-size: 13px;
+    color: #000;
+    text-decoration: none;
+}
+li
+{
+    list-style: none;
+   
+    color: #fff;
+    
+}
+.menuIcon
+{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+  
+}
+.area
+{
+    width: 100%;
+    height: 200px;
+    background:#fff;
+    display: none;
+   
+    top: 60px;
+    position: absolute;
+  
+   margin: 0;
+}
+.active:hover + .area
+{       
+    display: block;
+    z-index: 100;
+    
+}
+th
+{
+    font-size: 15px;
+}
+
+
+.active:hover
+{
+     
+   
+   
+    
+    border-bottom: 0px solid #ff8c00;
+    
+   
+}
+.item
+{
+    color: black;
+}
+#carouselExampleControls
+{
+    top: 30px;
+    position: relative;
+}
+.linkicon
+{
+    position: fixed;
+      z-index: 99;
+      cursor: pointer;
+      left: 30px;
+      top: 40%;
+}
+.colorchangebar
+{
+   
+    margin-top: 30px;
+}
+.colorchangebox
+{
+    margin-top: 10px;
+    width: 300px;
+    height:35px;
+    border-radius: 10px;
+   background-color:#fff;
+}
+
+.colorchangebox:hover
+
+{
+    width: 300px;
+    height: 55px;
+    transition: all .9s ease;
+
+}
+
+.colorchangebox:active
+{
+       background: transparent linear-gradient(
+90deg,#009981 0%,#00483d 100%) ;
+}
+
+
+.listproduct
+{
+    display: flex;
+     justify-content: space-around;
+    
+}
+.card
+{
+    margin-left: 5%;
+   
+     box-shadow: 3px 5px #00000029;
+}
+
+.imagephone
+{
+    width: 30px;
+    height: 30px;
+}
+.Typeofphone
+{
+    display: flex;
+}
+.cardIphone
+{
+     width: 70%;
+     height: 70%;
+     margin: 0 auto;
+}
+.laptopitem
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+h3
+{
+    font-size: 28px;
+   font-weight: 700;
+   margin: 0 30px 0 0;
+   color: #fc521d;
+   text-decoration: none;
+   padding-top: 15px;
+
+}
+.header
+{
+     background: #00483d;
+   
+    margin-top: 20px;
+   display: flex;
+    width: 30%;
+    height: 30px;
+    overflow: hidden;
+    
+}
+.displayarea
+{
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.display
+{
+    display: flex;
+   
+}
+.apple-product
+{
+    font-size: 15px;
+    color: #fff;
+    margin-top: 5px;
+    margin:  0 auto;
+    
+
+}
+.separator
+{
+    height: 30px;
+    width: 15%;
+   background:#009981;
+
+}
+
+.icon-accessories
+{
+    margin: 0;   
+   
+}
+.img-technology
+{
+   margin: 0 auto;
+   
+}
+.image-tool
+{
+     margin: 0 auto;
+
+}
+.note
+{
+    text-align: center;
+    text-decoration: none;
+   color:#000;
+}
+.technology
+{
+    display: flex;
+    flex-direction: column;
+    
+   background: #efefef;
+    
+    border: 1px solid #efefef;
+    text-decoration: none;
+  
+
+}
+.tool
+{
+     display: flex;
+    flex-direction: column;
+      background: #efefef;
+    
+    border: 1px solid #efefef;
+    text-decoration: none;
+}
+
+
+.container-accessories
+{
+        background: #fff;
+    width:100% ;
+    height:500px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+p
+{
+    font-size: 13px;
+}
+.note:hover
+{
+    color:#00917a;
+}
+.technology:hover{
+    border: 1px solid #00917a;
+}
+.tool:hover
+{
+     border: 1px solid #00917a;
+}
+
+
+.heading
+{
+      font-family: -apple-system,BlinkMacSystemFont,'Segoe UI';
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+}
+.footer
+{
+    width: 100%;
+    height: 35vh;
+    background-color: #00483d;;
+    border-radius: 10px;
+}
+.infor
+{
+    margin-left: 10px;
+    margin-right: 8px;
+}
+.link
+{
+      color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI';
+    font-size: 13px;
+    text-decoration: none;
+}
+
+
+
+

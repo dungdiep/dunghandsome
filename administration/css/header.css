@@ -1,0 +1,106 @@
+.navigation
+
+{   
+   
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI';
+    background: #00483d;
+    font-size: 13px;
+     color:#fff;
+    cursor: pointer;
+    height: 30px;
+    align-items: center;
+}
+.menuitem
+{
+    margin-right: 10px;
+}
+.linkitem
+{
+    color: #fff;
+    text-decoration: none;
+}
+.searchandcartbar
+{
+    display: flex;
+    align-items: center;
+}
+.logo
+{
+    margin-top: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.searchbar
+{
+    width:50%;
+    height:35px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color:#f4f4f4 ;
+    margin-left: 20px;
+    margin-top: 30px;
+   
+   
+}
+.searchbar::placeholder{
+    font-size: 15px;
+}
+.gg
+{
+    display: flex;
+}
+.btn-search
+{
+    width: 36px;
+    height: 36px;
+    border-radius: 13px;
+   background-image: linear-gradient(#00917a,#00483d);
+    outline: none;
+   margin-left: -40px;
+   margin-top: 10px;
+   border: none;
+}
+.fa-search
+{
+    color:#fff;
+}
+.tt
+{
+    display: flex;
+}
+.btn-transport
+{
+    
+   width: 130px;
+   height: 50px;
+   background-color: #00483d;
+   border-radius: 10px;
+   margin-left: 20px;
+   margin-top: 15px;
+   color:#fff;
+   font-size: 10px;
+
+  
+  
+   
+
+}
+.check
+{
+    font-size: 10px;
+}
+.fa-truck
+{
+    color:#fff;
+    font-size: 25px;
+   
+}
+.fa-shopping-cart
+{
+    color:#00483d;
+   margin-left: 30px;
+}

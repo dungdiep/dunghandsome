@@ -1,0 +1,5 @@
+Bảng Order:
+Khách hàng đặt hàng thành công thì status = 0, cancelOrder = 0
+Admin xử lý đơn hàng thì status = 1, cancelOrder = 0
+Khách hàng bấm vào nút đã nhận hàng thì status = 2, cancelOrder = 2
+Admin bấm vào xóa đơn hàng thì xóa dữ liệu khỏi Database
